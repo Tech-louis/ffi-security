@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFi Security - Home</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --theme-yellow: #FFC107;
+            --theme-red: #DC3545;
+            --theme-black: #000000;
+            --theme-gold: #FFD700;
+            --theme-off-white: #F8F9FA;
+            --theme-light-grey: #D3D3D3;
+        }
+        .theme-bg-yellow { background-color: var(--theme-yellow); }
+        .theme-bg-red { background-color: var(--theme-red); }
+        .theme-bg-black { background-color: var(--theme-black); }
+        .theme-bg-gold { background-color: var(--theme-gold); }
+        .theme-bg-off-white { background-color: var(--theme-off-white); }
+        .theme-bg-light-grey { background-color: var(--theme-light-grey); }
+        .theme-text-yellow { color: var(--theme-yellow); }
+        .theme-text-red { color: var(--theme-red); }
+        .theme-text-black { color: var(--theme-black); }
+        .theme-text-gold { color: var(--theme-gold); }
+        .theme-text-off-white { color: var(--theme-off-white); }
+        .theme-text-light-grey { color: var(--theme-light-grey); }
+
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            margin: 1rem;
+            flex-direction: row;
+            padding: auto;
+        }
+        ul li{
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body class="theme-bg-black text-white">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-shield-alt theme-text-yellow"></i> FFi Security
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center theme-bg-yellow text-black">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold">FRACHA FRAUD INVESTIGATION</h1>
+            <p class="mt-4 text-2xl">Your Security, Our Priority</p>
+            <a href="#" class="mt-8 inline-block px-6 py-3 bg-red-600 text-white text-lg rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-16 theme-bg-black text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Who We Are</h2>
+            <p class="text-center mb-8">We are a new energetic and growing medium-size company in Tanzania for private financial investigations, registered since April 2016.</p>
+            <div class="flex justify-center">
+                <a href="#" class="px-6 py-3 bg-yellow-600 text-black text-lg rounded-full">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 theme-bg-red text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">What We Offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 bg-black rounded-lg">
+                    <i class="fas fa-shield-alt text-4xl mb-4 theme-text-yellow"></i>
+                    <h3 class="text-2xl font-bold mb-2">Security Consultations</h3>
+                    <p>A wide range of Security Consultations to private financial institutions.</p>
+                </div>
+                <div class="p-6 bg-black rounded-lg">
+                    <i class="fas fa-search text-4xl mb-4 theme-text-yellow"></i>
+                    <h3 class="text-2xl font-bold mb-2">Asset Tracing Investigations</h3>
+                    <p>Comprehensive asset tracing investigations for financial institutions.</p>
+                </div>
+                <div class="p-6 bg-black rounded-lg">
+                    <i class="fas fa-lock text-4xl mb-4 theme-text-yellow"></i>
+                    <h3 class="text-2xl font-bold mb-2">Cyber Security</h3>
+                    <p>Robust cyber security solutions for financial institutions.</p>
+                </div>
+                <div class="p-6 bg-black rounded-lg">
+                    <i class="fas fa-user-check text-4xl mb-4 theme-text-yellow"></i>
+                    <h3 class="text-2xl font-bold mb-2">Employment Background Checks</h3>
+                    <p>Thorough background checks for potential employees.</p>
+                </div>
+                <div class="p-6 bg-black rounded-lg">
+                    <i class="fas fa-database text-4xl mb-4 theme-text-yellow"></i>
+                    <h3 class="text-2xl font-bold mb-2">Follow the Money Doctrine</h3>
+                    <p>Investigating what defaulter customers did with the money.</p>
+                </div>
+                <div class="p-6 bg-black rounded-lg">
+                    <i class="fas fa-users text-4xl mb-4 theme-text-yellow"></i>
+                    <h3 class="text-2xl font-bold mb-2">Educational Workshops</h3>
+                    <p>Conducting workshops on financial investigations and cyber security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 theme-bg-black text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Meet Our Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1 -->
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="rounded-full mb-4" alt="Frank Paul Mahemba">
+                    <h3 class="text-2xl font-bold">Frank Paul Mahemba</h3>
+                    <p class="text-yellow-600">LLB HONS. UDSM, LLM (TAXATION) UDSM</p>
+                    <p>Experienced in handling fraud matters in financial institutions.</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="rounded-full mb-4" alt="Charles Omary Mkumbo">
+                    <h3 class="text-2xl font-bold">Charles Omary Mkumbo</h3>
+                    <p class="text-yellow-600">BA ECONOMY. UDSM, MS IN SECURITY ndc DSM</p>
+                    <p>Experienced in handling fraud matters and public institution security.</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="rounded-full mb-4" alt="Eng. Gaspari Shiliba">
+                    <h3 class="text-2xl font-bold">Eng. Gaspari Shiliba</h3>
+                    <p class="text-yellow-600">ICT Infrastructure Manager</p>
+                    <p>Experienced in solving various cyber security challenges.</p>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="rounded-full mb-4" alt="Hekima Mwasipu">
+                    <h3 class="text-2xl font-bold">Hekima Mwasipu</h3>
+                    <p class="text-yellow-600">Licensed Legal Practitioner</p>
+                    <p>Experienced in litigation, dispute resolution, and corporate counsel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 theme-bg-yellow text-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Contact Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">Get in Touch</h3>
+                    <p class="mb-4">We would be delighted to serve you. Reach out to us through the following contact details:</p>
+                    <p><i class="fas fa-envelope theme-text-red"></i> <a href="mailto:frankmgs47@gmail.com" class="theme-text-red">frankmgs47@gmail.com</a></p>
+                    <p><i class="fas fa-phone theme-text-red"></i> +255 756 949409</p>
+                    <p><i class="fas fa-phone theme-text-red"></i> +255 768 948151</p>
+                    <p><i class="fas fa-phone theme-text-red"></i> +255 714 948151</p>
+                    <p><i class="fas fa-map-marker-alt theme-text-red"></i> Jamuhuri na Azikiwe, NSSF Building, P.O.Box 8900, Dar Es Salaam, Tanzania</p>
+                </div>
+                <div>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-sm font-medium text-black">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-md" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-medium text-black">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border rounded-md" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-sm font-medium text-black">Message</label>
+                            <textarea id="message" class="w-full px-4 py-2 border rounded-md" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="px-6 py-3 bg-red-600 text-white rounded-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 theme-bg-black text-center">
+        <div class="container">
+            <p>&copy; 2024 FFi Security Co. LTD. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
